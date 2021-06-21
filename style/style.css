@@ -4,6 +4,8 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
 body {
@@ -506,7 +508,7 @@ a {
   .main--content--banner {
     display: block;
     position: relative;
-    padding: 2em 2em;
+    padding: 2em 1em;
     height: auto;
     text-align: center;
   }
@@ -527,6 +529,8 @@ a {
     z-index: 99;
   }
   .main--content--banner--button {
+    position: relative;
+    z-index: 9;
     margin: 2em;
     display: block;
   }

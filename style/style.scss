@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 200ms;
 }
 
 body {
@@ -449,7 +450,7 @@ a {
     &--banner {
       display: block;
       position: relative;
-      padding: 2em 2em;
+      padding: 2em 1em;
       height: auto;
       text-align: center;
       &--background {
@@ -469,6 +470,8 @@ a {
         z-index: 99;
       }
       &--button {
+        position: relative;
+        z-index: 9;
         margin: 2em;
         display: block;
       }
